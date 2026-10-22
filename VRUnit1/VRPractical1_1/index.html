@@ -4,6 +4,8 @@
   </head>
   <body>
     <a-scene>
+
+    <a-entity id=car1>
       <a-entity class="car" position="4 0 0">
      <a-box wireframe= true position="0 0 0" width="1.5" height="2" depth="3">
       <a-box position="0 0 0" rotation="0 90 0" width="3" height="1" depth="1.5" color="#DAB1DA"></a-box>
@@ -27,7 +29,8 @@
       </a-box> 
       </a-entity>
 
-      <a-entity class="car" position="-1" 0 0" rotation="0 90 0">
+    <a-entity id=car2>
+      <a-entity class="car" position="-1 0 0" rotation="0 90 0">
      <a-box wireframe= true position="0 0 0" width="1.5" height="2" depth="3">
       <a-box position="0 0 0" rotation="0 90 0" width="3" height="1" depth="1.5" color="red"></a-box>
 
@@ -50,6 +53,7 @@
       </a-box> 
       </a-entity>
 
+    <a-entity id="car3"> 
       <a-entity class="car" position="-5" 0 0" >
      <a-box wireframe= true position="0 0 0" width="1.5" height="2" depth="3">
       <a-box position="0 0 0" rotation="0 90 0" width="3" height="1" depth="1.5" color="orange"></a-box>
@@ -72,6 +76,7 @@
       <a-box position="-0.6 0.2 1.2" width="0.1" height="0.2" color="yellow"></a-box>
       </a-box> 
       </a-entity>
+    </a-entity>
 
       <a-plane position="0 -0.9 0.40" rotation="-90 0 0" width="20" height="20" src="snow.jpg" ></a-plane>
       <a-sky src="sky.jpg"></a-sky>

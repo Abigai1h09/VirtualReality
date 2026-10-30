@@ -4,21 +4,26 @@ window.addEventListener("DOMContentLoaded",function() {
 
   //Challenge 2: Create a variable for <a-dodecahedron> and create it.
   let dodecahedron = document.createElement("a-dodecahedron");
+  let cone = document.createElement("a-cone");
   
   //Challenge 3: Change the <a-dodecahedron>'s position, radius and color
   dodecahedron.setAttribute("position", "3 0 2");
   dodecahedron.setAttribute("radius", "1 0 0");
   dodecahedron.setAttribute("color", "purple");
 
+  cone.setAttribute("position", "5 0 0");
+  cone.setAttribute("radius", "1 0 0");
+  cone.setAttribute("color", "pink");
+
   //Challenge 4: Add the <a-dodecahedron> to the scene
   scene.append(dodecahedron);
-
+  scene.append(cone);
   /* Challenge Bonus
   1) Use a for loop to create a lot of <a-dodecahedron> 
   2) Change each <a-dodecahedron>'s position to a random x, y, and z location
   3) Change each <a-dodecahedron>'s to a random color.  Hint: Use rgb( ) and string interpolation 
   */
 
-  
+
 
 })
